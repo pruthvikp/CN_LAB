@@ -39,8 +39,8 @@ public class bellmanFord{
 		
 		for(int u=0;u<n;u++){
 			for(int v=0;v<n;v++){
-				if(graph[u][v]!=0 && dist[u]!=Integer.MAX_VALUE && dist[u]+graph[u][v]<dist[v]){
-					System.out.println("Negative cycle detected");
+				if(graph[v][u]!=0 && dist[u]!=Integer.MAX_VALUE && dist[u]+graph[u][v]<dist[v]){
+					System.out.println("Negative weight cycle detected");
 					return;
 				}
 			}
@@ -58,7 +58,7 @@ public class bellmanFord{
 		
 /*
 Output:
-
+------------------------------------
 Enter the number of vertices
 4
 Enter the weighted matrix:
@@ -73,4 +73,16 @@ Vertex		Distance from source
 2		7
 3		5
 4		8
+-------------------------------------
+Enter the number of vertices
+4
+Enter the weighted matrix:
+0 -2 0 2
+0 0 -3 0
+0 0 0 -1
+0 0 0 0
+Enter the source vertex:
+1
+Negative weight cycle detected
+-------------------------------------
 */
