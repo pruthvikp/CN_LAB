@@ -1,4 +1,4 @@
-// Write a program to implement random early detection (RED) congestion control algorithm.
+// Write a program for simple RSA algorithm to encrypt and decrypt the data.
 
 import java.util.*;
 import java.io.*;
