@@ -40,8 +40,9 @@ public class CRC {
 
         if (Integer.parseInt(recRem, 2) == 0) {
             System.out.println("No Error");
-        } else
+        }
+        else
             System.out.println("There was an error");
-        sc.close();
-    }
+        // recRem is a binary string representing the remainder obtained after dividing the received code word by the polynomial.
+        // Integer.parseInt(recRem, 2) converts this binary string to its equivalent integer value in base 10.    }
 }
