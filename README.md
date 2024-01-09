@@ -24,11 +24,11 @@ congestion control algorithm.
 
 ## Usage
 
-# Example command for running a Java program
+##### Example command for running a Java program
 javac program_name.java
 java program_name
 
-# Example command for running an NS2 simulation
+##### Example command for running an NS2 simulation
 ns program_name.tcl
 
 Happy Coding:)
