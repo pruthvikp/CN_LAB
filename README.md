@@ -30,8 +30,3 @@ java program_name
 
 ##### Example command for running an NS2 simulation
 ns program_name.tcl
-
-
-    
-
-Happy Coding:)
