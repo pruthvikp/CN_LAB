@@ -1,4 +1,4 @@
-This repository is a collection of programs implemented during the Computer Networks Laboratory at JSS Science And Technology University(SJCE). The projects cover a range of topics related to computer networks, including both Java and NS2 implementations.
+This repository is a collection of programs implemented during the Computer Networks Laboratory at JSS Science And Technology University(SJCE). The programs cover a range of topics related to computer networks, including both Java and NS2 implementations.
 
 ## Programs
 
