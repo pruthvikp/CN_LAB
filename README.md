@@ -16,9 +16,9 @@ This repository is a collection of programs implemented during the Computer Netw
 
 ### 2. Simulation Experiments using NS2
 
-1. a. Implement three nodes point – to – point network with duplex links between them. Set the queue size, vary the bandwidth and find the number of packets dropped.  
+10. a. Implement three nodes point – to – point network with duplex links between them. Set the queue size, vary the bandwidth and find the number of packets dropped.  
    b. Implement transmission of ping messages/trace route over a network topology consisting of 6 nodes and find the number of packets dropped due to congestion.
-2. a. Implement an Ethernet LAN using n nodes and set multiple traffic nodes and plot congestion window for different source / destination.
+11. a. Implement an Ethernet LAN using n nodes and set multiple traffic nodes and plot congestion window for different source / destination.
    b. Implement simple ESS and with transmitting nodes in wire-less LAN by simulation and determine the performance with respect to transmission of packets.
 
 ## Usage
